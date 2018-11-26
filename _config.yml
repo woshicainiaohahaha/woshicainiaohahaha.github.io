@@ -20,7 +20,7 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : wienli
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
@@ -35,11 +35,11 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : wienli
   url       :
-  avatar    : # path or url of avatar image
+  avatar    : https://image.baidu.com/search/detail?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E5%A4%B4%E5%83%8F&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=-1&hd=undefined&latest=undefined&copyright=undefined&cs=2572855718,3496121404&os=1319129447,3892439453&simid=4135904491,733351192&pn=478&rn=1&di=147070&ln=3694&fr=&fmq=1543220175188_R&ic=0&s=undefined&se=&sme=&tab=0&width=&height=&face=undefined&is=0,0&istype=2&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=1a4&objurl=http%3A%2F%2Fwww.qqzhuangban.com%2Fuploadfile%2F2014%2F12%2F1%2F20141224065420520.jpg&rpstart=0&rpnum=0&selected_tags=0&adpicid=0
   bio       : I am an amazing person.
-  email     :
+  email     : wienli_uid@163.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
@@ -53,7 +53,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
+repository: woshicainiaohahaha
 repository_tree: master
 
 
