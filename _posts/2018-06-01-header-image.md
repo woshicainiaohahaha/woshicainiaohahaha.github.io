@@ -4,7 +4,7 @@ title: 这是一个测试
 article_header:
   type: cover
   image:
-    src: /master/docs/assets/images/cover1.jpg
+    src: /blob/master/docs/assets/images/cover1.jpg
   
 ---
 
