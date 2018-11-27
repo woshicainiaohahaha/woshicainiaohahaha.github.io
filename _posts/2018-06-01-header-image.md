@@ -1,11 +1,10 @@
 ---
 layout: article
-title: Page - Article Header Overlay Background Fill
+title: 这是一个测试
 article_header:
-  type: overlay
-  theme: dark
-  image: 
-    src: /docs/assets/images/cover3.jpg
+  type: cover
+  image:
+    src: /docs/assets/images/cover2.jpg
   
 ---
 
