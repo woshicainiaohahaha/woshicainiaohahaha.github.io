@@ -19,7 +19,7 @@
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://tree.wienli.club/ # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : woshicainiaohahaha.github.io # does not include hostname
+baseurl :  # does not include hostname
 title   : wienli
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
@@ -53,7 +53,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: woshicainiaohahaha
+repository: woshicainiaohahaha.github.io
 repository_tree: master
 
 
