@@ -5,7 +5,7 @@ article_header:
   type: overlay
   theme: dark
   background_color: '#123'
-  background_image: 'src: /docs/assets/images/cover3.jpg'
+  background_image: 'src: docs/assets/images/cover3.jpg'
   
 ---
 
