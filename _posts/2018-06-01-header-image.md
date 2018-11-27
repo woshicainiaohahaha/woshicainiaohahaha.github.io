@@ -4,7 +4,7 @@ title: 这是一个测试
 article_header:
   type: cover
   image:
-    src: /woshicainiaohahaha.github.io/docs/assets/images/cover1.jpg
+    src: /master/docs/assets/images/cover1.jpg
   
 ---
 
