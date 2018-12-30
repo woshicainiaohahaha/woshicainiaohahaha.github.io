@@ -8,6 +8,6 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+![TeXt Theme](https://github.com/woshicainiaohahaha/woshicainiaohahaha.github.io/blob/master/about.gif)
 
 **O(∩_∩)O哈哈~，欢迎您啊。我是一个程序员，多多关照。**
