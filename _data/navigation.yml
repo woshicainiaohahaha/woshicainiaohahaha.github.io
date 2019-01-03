@@ -6,6 +6,12 @@ header:
       zh-Hant:  歸檔
     url:        /archive.html
   - titles:
+      en:       Life
+      zh:       生活
+      zh-Hans:  生活
+      zh-Hant:  生活
+    url:        /life.html
+  - titles:
       en:       About
       zh:       关于
       zh-Hans:  关于
