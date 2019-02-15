@@ -14,7 +14,7 @@ background_image: false
 
 大部分情况下是因为对象被提前release了，在你心里不希望它release的情况下，指针还在，对象已经不在了。当然，出现这种情况的原因有很多种，解决办法要根据具体情况来进行。
 
-这里暂时不提解决方案，但是这个__NSArrayI是个什么鬼？
+这里暂时不提解决方案，但是这个__NSArrayI是个什么鬼？转载i请注明出处（[wienli](https://tree.wienli.club)）。
 
 ### Class Clusters
 
@@ -59,7 +59,7 @@ NSNumber *aDouble = [NSNumber numberWithDouble:1.0];
 
 注：对于类簇使用isMemberOfClass和isKindOfClass是不允许的，因为类簇是由抽象公共类管理的一组私有类，抽象公共类并不是真正的实例的父类，类簇中真正的类从属关系被隐藏了，所以使用isMemberOfClass和isKindOfClass结果可能不准确。
 
-#### NSArray的类簇
+### NSArray的类簇
 
 在《effective objective-c 2.0编写高质量iOS与OS X代码的52个有效方法》中这样写道：系统框架中有许多类簇，大部分collection类都是类簇。例如NSArray与其可变版本NSMutableArray。这样看起来实际上有两个抽象基类，一个用于不可变数组，一个用于可变数组。尽管具备公共接口的类有两个，担任然可以合起来算一个类簇。不可变的类定义了对所有数组都通用的方法，而可变类则定义了那些只适用于可变数组的方法。两个类共同属于同一个类簇，这意味着二者在实现各自类型数组时可以共用实现代码，此外还能把可变数组复制成不可变数组，反之亦然。
 
