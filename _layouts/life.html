@@ -5,17 +5,21 @@ titles:
   zh: 生活
   zh-Hans: 生活
   zh-Hant: 生活
+show_title: true
+articles:
+  data_source: paginator.posts
+  article_type: BlogPosting
+  show_cover: true
+  show_excerpt: true
+  show_readmore: true
+  show_info: true
 ---
 
-<div class="layout--archive js-all">
-  {%- include tags.html -%}
-  <div class="js-result layout--archive__result d-none">
-    {%- include article-list.html articles=site.posts type='brief' show_info=true reverse=true group_by='year' -%}
-  </div>
+<div class="layout--life">
+  {%- include paginator.html -%}
 </div>
-
 <script>
-  {%- include scripts/archieve.js -%}
+  {%- include scripts/home.js -%}
 </script>
 
 {{ content }}
