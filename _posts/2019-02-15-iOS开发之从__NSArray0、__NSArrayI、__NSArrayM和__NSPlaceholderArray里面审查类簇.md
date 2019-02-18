@@ -14,7 +14,7 @@ background_image: false
 
 大部分情况下是因为对象被提前release了，在你心里不希望它release的情况下，指针还在，对象已经不在了。当然，出现这种情况的原因有很多种，解决办法要根据具体情况来进行。
 
-这里暂时不提解决方案，但是这个__NSArrayI是个什么鬼？转载i请注明出处（[wienli](https://tree.wienli.club)）。
+这里暂时不提解决方案，但是这个__NSArrayI是个什么鬼？转载请注明出处（[wienli](https://tree.wienli.club)）。
 
 ### Class Clusters
 
