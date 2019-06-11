@@ -93,7 +93,7 @@ fastlane init
 
 别急，回到你的工程，打开manage Schemes，然后将工程的share打上对勾：
 
-<div align=center>![Alt text](./WechatIMG88.jpeg)
+<div align=center>![xcode-select](https://github.com/woshicainiaohahaha/woshicainiaohahaha.github.io/blob/master/WechatIMG88.jpeg)
 
 然后输入：rm -rf fastlane，将刚才未配置好的文件删除，重新进行fastlane init。
 
@@ -103,7 +103,7 @@ fastlane init
 
 配置完毕后，我们回到工程文件目录：
 
-<dic align=center>![Alt text](./WechatIMG89.tiff)
+<div align=center>![xcode-select](https://github.com/woshicainiaohahaha/woshicainiaohahaha.github.io/blob/master/WechatIMG89.tiff)
 
 我们可以看到上面的文件信息：
 Appfile：主要存放app的app_id team_id app_identifier等信息。
