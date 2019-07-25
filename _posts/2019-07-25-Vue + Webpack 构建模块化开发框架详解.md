@@ -1,7 +1,12 @@
-Vue + Webpack 构建模块化开发框架详解[（转载）](https://segmentfault.com/a/1190000017389046?utm_source=tag-newest)
-====
-
-
+---
+layout: article
+title: Vue + Webpack 构建模块化开发框架详解[（转载）](https://segmentfault.com/a/1190000017389046?utm_source=tag-newest)
+article_header:
+type: overlay
+theme: dark
+background_color: '#123'
+background_image: false
+---
 
 ### 概要
 
