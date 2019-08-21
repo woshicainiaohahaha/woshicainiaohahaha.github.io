@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Vue + Webpack 构建模块化开发框架详解[（转载）](https://segmentfault.com/a/1190000017389046?utm_source=tag-newest)
+title: Vue + Webpack 构建模块化开发框架详解
 article_header:
 type: overlay
 theme: dark
@@ -37,8 +37,7 @@ background_image: false
 
 通过以上 7 步，我们就可以构建一个简单高效的`vue模块化开发`框架了
 
-构建过程
-====
+###构建过程
 
 ```
 说明一下：笔者的webpack和webpack-cli都是全局安装的,但有时候会出现某些webpack依赖包`not 
@@ -372,7 +371,6 @@ package.json
 
 可见，我们的 dev-server 正在监听 8080 端口，we success!
 
-后续
-==
+### 后续
 
   到此，我系统的详细的讲述了，如何使用 webpack 构建一个 vue 的项目框架，希望读者从中受益。我们其实可以看到，我们费了这么大的功夫，其实页面只是一个`<p>Hello VUE!!!</p>`，可能你会说是不是有些小题大作了，拿这个 demo 中的例子来说确实是这样，但是这也是模块化开发和传统式开发的区别，对于小的项目或者需求我们确实不用这么小题大做，但是随着页面的增多，业务需求的扩张和不确定性增大，我们不得不考虑代码的维护和复用，这在传统式开发中很难做到足够优秀的，但是模块化可以
